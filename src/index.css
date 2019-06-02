@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.Header .hr {
+  height: 5px;
+  width: 100%;
+  background-color: #000;
+}
+.Block .kong {
+  height: 94px;
+  width: 906px;
+}
+.Userinfo {
+  width: 906px;
+  margin: 0 auto;
+}
+.Userinfo .info {
+  height: 140px;
+  margin: 0 auto;
+}
+.Userinfo .info .username {
+  width: 170px;
+  height: 40px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+  margin: 0 auto;
+}
+
+.Userinfo .info .logo {
+  margin: 20px auto;
+  font-size: 15px;
+  color: #bfa699;
+}
+.Userinfo .info .icon {
+  margin: 0 auto;
+  width: 430px;
+}
+.Userinfo .info .icon ul li {
+  float: left;
+  height: 40px;
+  margin-right: 25px;
+}
+.Userinfo .info .icon ul li a {
+  color: #000;
+  font-size: 14px;
+}
+.Article .container {
+  width: 906px;
+  margin: 0 auto;
+}
+.Article .title {
+  margin: 0 auto;
+  color: #000;
+  height: 27px;
+  font: 700 27px/27px "microsoft yahei";
+}
+.Article .msg {
+  margin-top:10px;
+  color: #bfa699;
+  height:17px;
+  font: 400 12px/17px "microsoft yahei";
+}
+.Article .passage {
+  margin-top: 50px;
+  text-align: justify;
+  font: 400 14px/25px "microsoft yahei";
+}
+.Article .more{
+  margin: 30px auto;
+  width: 135px;
+  height: 34px;
+  background-color: #000;
+  color: #fff;
+  font:400 12px/34px "microsoft yahei";  
+  text-align: center;
+}
+.Page{
+  width: 906px;
+  margin:0 auto;
+}
+.Page ul {
+  display: inline-block;
+  margin: 0 auto;
+  /* text-align: center; */
+}
+.Page ul li{
+  float: left;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  /* border: 1px solid #bfa699; */
+  font:400 14px/30px "microsoft yahei";
+}
+.Foot{
+  width: 906px;
+  margin:0 auto;
+}
+.Foot span{
+  text-align: center;
+  color: #000;
+  font-size: 12px;
+  line-height: 20px;
+}
+.Fix {
+  position: absolute;
+  bottom:20px;
+  right:20px;
+}
+.Fix .iconfont{
+  font-size: 25px;
+}
